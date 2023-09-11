@@ -1,0 +1,101 @@
+
+
+.row {
+    display: flex;
+}
+
+.col-md-7 {
+    padding: 20px;
+}
+
+.col-md-5 {
+    background: #3498db;
+    padding: 20px;
+    color: white;
+}
+
+.form-control {
+    height: 52px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.d-flex p {
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    width: 18rem;
+    margin: 10px; 
+    float: left; 
+  }
+  
+  
+  .catalogo {
+    overflow: auto; 
+  }
+  
+  
+  .catalogo::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .card img {
+    max-width: 100%;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  .list-group-item {
+    font-size: 0.9rem;
+  }
+  
+  
+.jumbotron {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+}
+
+
+.display-4 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+.lead {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+
+  
+
+
+
+
+
